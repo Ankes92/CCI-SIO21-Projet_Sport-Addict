@@ -1,0 +1,100 @@
+html, body{  /* paramètres de la page de base */
+    margin: 60px 0 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../images/background.png);
+}
+
+header { /* en-tête */
+    background-image: url(../images/header.jpg);
+    height: 100px;
+    position: fixed;
+    color: white;
+    top: 0;
+    left:0;
+    right: 0;
+}
+
+#logo { /* logo du site web */
+    position: absolute;
+    top: 0;
+    right: 20px;
+    height: 100px;
+    width: auto;
+}
+
+img { /* propriétés de base des images */
+    height: 200px;
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+nav { /* barre de navigation */
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.navRedirect { /* menus cliquables sur la barre de navigation */
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: inherit;
+}
+
+a:hover { /* quand on survol un lien hypertexte */
+    color: black;
+    font-weight: bold;
+}
+
+.activite, .evenement { /* container pour chaque activite, et evenement */
+    float: left;
+    width: calc(25% - 60px);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 415px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.4);
+    border: 3px solid black;
+}
+
+.evenement { /* taille de la case d'un evenement */
+    height: 290px;
+}
+
+.activite:hover { /* survol d'une évènement */
+    box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.titreActivite { /* titre d'une activité */
+    text-decoration: underline;
+    font-size: 1.7em;
+}
+
+.descriptionActivite, .descriptionEvenement { /* description d'une activité et d'un évènement */
+    font-style: italic;
+}
+
+.descriptionEvenement { /* taille de description d'un évènement */
+    font-size: 1.7em;
+}
+
+.titre { /* titre d'une section */
+    clear: both;
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer{ /* pied de page */
+    clear: both;
+
+}
+
+.listeFooter { /* liste dans le bas de page */
+    float: left;
+    width: 33%;
+}
