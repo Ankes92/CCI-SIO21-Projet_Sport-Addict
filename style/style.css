@@ -1,10 +1,10 @@
-html, body{  /* paramètres de la page de base */
+html, body{  
     margin: 60px 0 0 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: url(../images/background.png);
 }
 
-header { /* en-tête */
+header { 
     background-image: url(../images/header.jpg);
     height: 100px;
     position: fixed;
@@ -14,7 +14,7 @@ header { /* en-tête */
     right: 0;
 }
 
-#logo { /* logo du site web */
+#logo { 
     position: absolute;
     top: 0;
     right: 20px;
@@ -22,7 +22,7 @@ header { /* en-tête */
     width: auto;
 }
 
-img { /* propriétés de base des images */
+img { 
     height: 200px;
     max-width: 95%;
     display: block;
@@ -30,24 +30,24 @@ img { /* propriétés de base des images */
     margin-right: auto 
 }
 
-nav { /* barre de navigation */
+nav { 
     padding-top: 37px;
     padding-bottom: 37px;
 }
 
-.navRedirect { /* menus cliquables sur la barre de navigation */
+.navRedirect { 
     padding-left: 10px;
     padding-right: 10px;
     color: white;
     text-decoration: inherit;
 }
 
-a:hover { /* quand on survol un lien hypertexte */
+a:hover { 
     color: black;
     font-weight: bold;
 }
 
-.activite, .evenement { /* container pour chaque activite, et evenement */
+.activite, .evenement { 
     float: left;
     width: calc(25% - 60px);
     margin-top: 100px;
@@ -61,40 +61,40 @@ a:hover { /* quand on survol un lien hypertexte */
     border: 3px solid black;
 }
 
-.evenement { /* taille de la case d'un evenement */
+.evenement { 
     height: 290px;
 }
 
-.activite:hover { /* survol d'une évènement */
+.activite:hover { 
     box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.6);
     background-color:rgba(0, 0, 0, 0.4);
 }
 
-.titreActivite { /* titre d'une activité */
+.titreActivite { 
     text-decoration: underline;
     font-size: 1.7em;
 }
 
-.descriptionActivite, .descriptionEvenement { /* description d'une activité et d'un évènement */
+.descriptionActivite, .descriptionEvenement { 
     font-style: italic;
 }
 
-.descriptionEvenement { /* taille de description d'un évènement */
+.descriptionEvenement { 
     font-size: 1.7em;
 }
 
-.titre { /* titre d'une section */
+.titre { 
     clear: both;
     text-align: center;
     text-decoration: underline;
 }
 
-footer{ /* pied de page */
+footer{ 
     clear: both;
 
 }
 
-.listeFooter { /* liste dans le bas de page */
+.listeFooter { 
     float: left;
     width: 33%;
 }
